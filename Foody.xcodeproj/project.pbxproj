@@ -15,6 +15,7 @@
 		AB1C5CB82878A61D00506250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1C5CB72878A61D00506250 /* Assets.xcassets */; };
 		AB1C5CBB2878A61D00506250 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1C5CBA2878A61D00506250 /* Preview Assets.xcassets */; };
 		AB2975EF2879C8B50073CF45 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2975EE2879C8B50073CF45 /* GetStartedView.swift */; };
+		AB35DB3E287DCC5C0099B1C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AB1C5CB72878A61D00506250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB1C5CBA2878A61D00506250 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB2975EE2879C8B50073CF45 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				AB1C5CB32878A61C00506250 /* FoodyApp.swift */,
 				AB1C5CB52878A61C00506250 /* ContentView.swift */,
 				AB2975EE2879C8B50073CF45 /* GetStartedView.swift */,
+				AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */,
 				AB1C5CB72878A61D00506250 /* Assets.xcassets */,
 				AB0283082879DEE100736E4E /* Fonts */,
 				AB1C5CB92878A61D00506250 /* Preview Content */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1C5CB62878A61C00506250 /* ContentView.swift in Sources */,
+				AB35DB3E287DCC5C0099B1C3 /* HomeView.swift in Sources */,
 				AB2975EF2879C8B50073CF45 /* GetStartedView.swift in Sources */,
 				AB1C5CB42878A61C00506250 /* FoodyApp.swift in Sources */,
 			);
