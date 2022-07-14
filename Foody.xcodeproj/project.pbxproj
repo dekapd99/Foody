@@ -17,6 +17,8 @@
 		AB2975EF2879C8B50073CF45 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2975EE2879C8B50073CF45 /* GetStartedView.swift */; };
 		AB35DB3E287DCC5C0099B1C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */; };
 		AB8F098D287EB2AB00078908 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB8F098C287EB2AB00078908 /* Poppins-Medium.ttf */; };
+		ABBA6E3A288002CA00229336 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA6E39288002CA00229336 /* OrderView.swift */; };
+		ABDAF6EC287F03BB006252C4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAF6EB287F03BB006252C4 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AB2975EE2879C8B50073CF45 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
 		AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AB8F098C287EB2AB00078908 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		ABBA6E39288002CA00229336 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		ABDAF6EB287F03BB006252C4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,10 @@
 				AB0283072879DE7700736E4E /* Info.plist */,
 				AB1C5CB32878A61C00506250 /* FoodyApp.swift */,
 				AB1C5CB52878A61C00506250 /* ContentView.swift */,
+				ABDAF6EB287F03BB006252C4 /* DetailView.swift */,
 				AB2975EE2879C8B50073CF45 /* GetStartedView.swift */,
 				AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */,
+				ABBA6E39288002CA00229336 /* OrderView.swift */,
 				AB1C5CB72878A61D00506250 /* Assets.xcassets */,
 				AB0283082879DEE100736E4E /* Fonts */,
 				AB1C5CB92878A61D00506250 /* Preview Content */,
@@ -172,6 +178,8 @@
 				AB1C5CB62878A61C00506250 /* ContentView.swift in Sources */,
 				AB35DB3E287DCC5C0099B1C3 /* HomeView.swift in Sources */,
 				AB2975EF2879C8B50073CF45 /* GetStartedView.swift in Sources */,
+				ABBA6E3A288002CA00229336 /* OrderView.swift in Sources */,
+				ABDAF6EC287F03BB006252C4 /* DetailView.swift in Sources */,
 				AB1C5CB42878A61C00506250 /* FoodyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
