@@ -1,11 +1,10 @@
-# Foody
-
 <!-- ABOUT THE PROJECT -->
 <p align="center">
   <a href="#" target="_blank"><img src="Foody.png" width="200"></a>
 </p>
 
-Aplikasi Foody adalah Learning iOS Frontend: Aplikasi iOS Pemesanan Makanan dengan SwiftUI, WidgetKit, Google Fonts, dan Assets dari Figma.
+# Foody
+Aplikasi Foody adalah Aplikasi iOS Pemesanan Makanan dengan SwiftUI, WidgetKit, Google Fonts, dan Assets dari Figma untuk Mempelajari Ilmu Frontend iOS.
 
 ### Preview
 <p align="center">
@@ -19,20 +18,22 @@ Aplikasi Foody adalah Learning iOS Frontend: Aplikasi iOS Pemesanan Makanan deng
 Berikut struktur file dan folder pada iReader:
 
     .
-    ├── FoodyApp.swift           # Root Project: Konfirgurasi AppViewModel
-    ├── Info.plist                 # Privacy - Camera Usage Description
-    ├── ContentView.swift          # Tampilan Beranda Aplikasi
-    ├── Assets                     # Aset Logo dan Warna
-    ├── GetStartedView.swift         # Berisikan Deklarasi Data Enum & Fungsi Main Thread
-    └── DataScannerView.swift      # Berisikan Fungsi Wrapper DataScannerView yang disediakan oleh Apple untuk Scanning Data dengan Camera
+    ├── FoodyApp.swift          # Root Project: Konfigurasi ContentView
+    ├── Info.plist              # Fonts Provided by Aplication: Poppins-(Regular, Medium, SemiBold, dan Bold)
+    ├── ContentView.swift       # Tampilan Beranda Aplikasi
+    ├── Assets                  # Aset Logo, Icon, Gambar, dan Warna
+    ├── GetStartedView.swift    # Berisikan Halaman Get Started (Frontend Only)
+    ├── HomeView.swift          # Berisikan Halaman Home / Beranda (Frontend Only)
+    ├── DetailView.swift        # Berisikan Halaman Food Detail (Frontend Only)
+    └── OrderView.swift         # Berisikan Halaman Order (Frontend Only)
 
 <!-- List of Features -->
 ## Features:
 
-* Filter Tipe Text Scanner (All, URL, Phone, Email, Address)
-* QR & Barcode Scanner
-* Text Scanner
-* Native iOS Camera
+* Widgets & Properties
+* Basic Navigations with Group & onTapGesture
+* Declarative UI with @State
+* Importation Assets from Figma & Google Fonts
 
 <!-- Used Tools -->
 ## Build With:
@@ -51,7 +52,7 @@ git clone https://github.com/dekapd99/Foody.git
 ```
 
 2. Jika sudah silahkan buka Project di Xcode.
-3. Sambungkan iPhone dengan komputer Macbook Anda, dan pastikan untuk memilih iPhone tersebut pada Target Simulator (Kolom Device dibagian atas Xcode). 
+3. Pastikan untuk memilih iPhone pada Target Simulator (Kolom Device dibagian atas Xcode). 
 4. Build & Run
 
 <!-- What Kind of License? -->
