@@ -1,10 +1,9 @@
-# Foody
-
 <!-- ABOUT THE PROJECT -->
 <p align="center">
   <a href="#" target="_blank"><img src="Foody.png" width="200"></a>
 </p>
 
+# Foody
 Aplikasi Foody adalah Aplikasi iOS Pemesanan Makanan dengan SwiftUI, WidgetKit, Google Fonts, dan Assets dari Figma untuk Mempelajari Ilmu Frontend iOS.
 
 ### Preview
