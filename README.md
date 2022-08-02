@@ -15,7 +15,7 @@ Aplikasi Foody adalah Aplikasi iOS Pemesanan Makanan dengan SwiftUI, WidgetKit, 
 
 <!-- ABOUT THE FILE & FOLDER STRUCTURE -->
 ## Folder & File Structure
-Berikut struktur file dan folder pada iReader:
+Berikut struktur file dan folder pada Foody:
 
     .
     ├── FoodyApp.swift          # Root Project: Konfigurasi ContentView
@@ -41,6 +41,7 @@ Berikut struktur file dan folder pada iReader:
 * [Swift](https://www.swift.org/documentation/)
 * [SwiftUI](https://developer.apple.com/documentation/swiftui/)
 * [Xcode](https://developer.apple.com/xcode/)
+* [Figma](https://www.figma.com/file/CeATh4s9pEvlbINBcEF6kk/Foody-UI-Design?node-id=0%3A1)
 
 <!-- How to Install -->
 ## Installation
