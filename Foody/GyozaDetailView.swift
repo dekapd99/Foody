@@ -86,7 +86,7 @@ struct GyozaDetailView: View {
                         HStack(spacing: 0.0) {
                             // VStack Price Info
                             VStack(alignment: .leading, spacing: 0.0) {
-                                Text("$808.00")
+                                Text("$12.00")
                                     .font(.custom("Poppins-Bold", size: 22))
                                     .foregroundColor(Color("Navy"))
                                     .padding(.bottom, 6.0)
