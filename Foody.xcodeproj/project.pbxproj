@@ -10,6 +10,8 @@
 		AB0283042879DE5300736E4E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB0283012879DE5300736E4E /* Poppins-SemiBold.ttf */; };
 		AB0283052879DE5300736E4E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB0283022879DE5300736E4E /* Poppins-Bold.ttf */; };
 		AB0283062879DE5300736E4E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB0283032879DE5300736E4E /* Poppins-Regular.ttf */; };
+		AB1AD7ED2898CB020071166D /* AvocadoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1AD7EC2898CB020071166D /* AvocadoDetailView.swift */; };
+		AB1AD7EF2898CBBC0071166D /* OrangeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1AD7EE2898CBBC0071166D /* OrangeDetailView.swift */; };
 		AB1C5CB42878A61C00506250 /* FoodyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CB32878A61C00506250 /* FoodyApp.swift */; };
 		AB1C5CB62878A61C00506250 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CB52878A61C00506250 /* ContentView.swift */; };
 		AB1C5CB82878A61D00506250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1C5CB72878A61D00506250 /* Assets.xcassets */; };
@@ -18,7 +20,7 @@
 		AB35DB3E287DCC5C0099B1C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */; };
 		AB8F098D287EB2AB00078908 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB8F098C287EB2AB00078908 /* Poppins-Medium.ttf */; };
 		ABBA6E3A288002CA00229336 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA6E39288002CA00229336 /* OrderView.swift */; };
-		ABDAF6EC287F03BB006252C4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAF6EB287F03BB006252C4 /* DetailView.swift */; };
+		ABDAF6EC287F03BB006252C4 /* GyozaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAF6EB287F03BB006252C4 /* GyozaDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AB0283022879DE5300736E4E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		AB0283032879DE5300736E4E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		AB0283072879DE7700736E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AB1AD7EC2898CB020071166D /* AvocadoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoDetailView.swift; sourceTree = "<group>"; };
+		AB1AD7EE2898CBBC0071166D /* OrangeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeDetailView.swift; sourceTree = "<group>"; };
 		AB1C5CB02878A61C00506250 /* Foody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1C5CB32878A61C00506250 /* FoodyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyApp.swift; sourceTree = "<group>"; };
 		AB1C5CB52878A61C00506250 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,7 +39,7 @@
 		AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AB8F098C287EB2AB00078908 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		ABBA6E39288002CA00229336 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
-		ABDAF6EB287F03BB006252C4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ABDAF6EB287F03BB006252C4 /* GyozaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyozaDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +86,9 @@
 				AB0283072879DE7700736E4E /* Info.plist */,
 				AB1C5CB32878A61C00506250 /* FoodyApp.swift */,
 				AB1C5CB52878A61C00506250 /* ContentView.swift */,
-				ABDAF6EB287F03BB006252C4 /* DetailView.swift */,
+				ABDAF6EB287F03BB006252C4 /* GyozaDetailView.swift */,
+				AB1AD7EE2898CBBC0071166D /* OrangeDetailView.swift */,
+				AB1AD7EC2898CB020071166D /* AvocadoDetailView.swift */,
 				AB2975EE2879C8B50073CF45 /* GetStartedView.swift */,
 				AB35DB3D287DCC5C0099B1C3 /* HomeView.swift */,
 				ABBA6E39288002CA00229336 /* OrderView.swift */,
@@ -177,9 +183,11 @@
 			files = (
 				AB1C5CB62878A61C00506250 /* ContentView.swift in Sources */,
 				AB35DB3E287DCC5C0099B1C3 /* HomeView.swift in Sources */,
+				AB1AD7ED2898CB020071166D /* AvocadoDetailView.swift in Sources */,
+				AB1AD7EF2898CBBC0071166D /* OrangeDetailView.swift in Sources */,
 				AB2975EF2879C8B50073CF45 /* GetStartedView.swift in Sources */,
 				ABBA6E3A288002CA00229336 /* OrderView.swift in Sources */,
-				ABDAF6EC287F03BB006252C4 /* DetailView.swift in Sources */,
+				ABDAF6EC287F03BB006252C4 /* GyozaDetailView.swift in Sources */,
 				AB1C5CB42878A61C00506250 /* FoodyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
