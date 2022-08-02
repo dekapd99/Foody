@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "avocado_bundle_two.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "avocado_bundle_two@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "avocado_bundle_two@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
