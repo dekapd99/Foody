@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "orange_bundle_one.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "orange_bundle_one@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "orange_bundle_one@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

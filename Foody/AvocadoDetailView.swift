@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AvocadoDetailView: View {
     var body: some View {
-        Text("Hello, AvocadoDetailPage")
+        Text("Hello, AvocadoDetailView")
     }
 }
 
