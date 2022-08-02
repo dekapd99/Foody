@@ -11,15 +11,21 @@ import SwiftUI
 struct HomeView: View {
     
     @State private var searchFood: String = "" // State Empty String buat Search Food
-    @State private var showDetailPage = false // Default Navigation Page
+    @State private var showGyozaDetailPage = false // Default Navigation Page
+    @State private var showOrangeDetailPage = false // Default Navigation Page
+    @State private var showAvocadoDetailPage = false // Default Navigation Page
     
     var body: some View {
         // Basic Navigation Group (Kondisi Perpindahan Halaman)
         return Group {
-            // Jika showDetailPage = true maka tampilkan Halaman DetailView
+            // Jika showDetailPage = true maka tampilkan Halaman GyozaDetailView
             // Jika false maka tampilkan Halaman ini (Home / Beranda)
-            if showDetailPage {
-                DetailView()
+            if showGyozaDetailPage {
+                GyozaDetailView()
+            } else if showOrangeDetailPage{
+                OrangeDetailView()
+            }else if showOrangeDetailPage{
+                AvocadoDetailView()
             } else {
                 // VStack Parents (Main Layout)
                 VStack(alignment: .leading, spacing: 0.0) {
@@ -154,7 +160,12 @@ struct HomeView: View {
                                         .foregroundColor(Color("Navy"))
                                     Image("IconStar")
                                 } // HStack Food Rating: Orange Drink
-                            } // HStack Food Card: Orange Drink
+                            }
+                            .onTapGesture {
+                                self.showOrangeDetailPage = true
+                            }// OnTapGesture: Perpindahan Halaman
+                            
+                            // HStack Food Card: Orange Drink
                             .padding(.bottom, 18.0)
                             
                             // HStack Food Card: Gyoza Sapi
@@ -185,7 +196,7 @@ struct HomeView: View {
                                 } // HStack Food Rating: Gyoza Sapi
                             } // HStack Food Card: Gyoza Sapi
                             .onTapGesture {
-                                self.showDetailPage = true
+                                self.showGyozaDetailPage = true
                             }// OnTapGesture: Perpindahan Halaman
                             .padding(.bottom, 18.0)
                             
@@ -216,6 +227,10 @@ struct HomeView: View {
                                     Image("IconStar")
                                 } // HStack Food Rating: Avocado Salad
                             } // HStack Food Card: Avocado Salad
+                            .onTapGesture {
+                                self.showAvocadoDetailPage = true
+                            }// OnTapGesture: Perpindahan Halaman
+                            
                             .padding(.bottom, 18.0)
                             
                         } // VStack Most Ordered

@@ -1,5 +1,5 @@
 //
-//  DetailView.swift
+//  GyozaDetailView.swift
 //  Foody
 //
 //  Created by Deka Primatio on 13/07/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 // Halaman Detail Food
-struct DetailView: View {
+struct GyozaDetailView: View {
     
     @State private var showOrderPage = false // Default Navigation Page
     
@@ -71,11 +71,11 @@ struct DetailView: View {
                             ScrollView(.horizontal, showsIndicators: false, content: {
                                 // HStack Bundle Photo
                                 HStack(spacing: 0.0) {
-                                    Image("BundleOne")
+                                    Image("GyozaBundleOne")
                                         .padding(.trailing, 16.0)
-                                    Image("BundleTwo")
+                                    Image("GyozaBundleTwo")
                                         .padding(.trailing, 16.0)
-                                    Image("BundleThree")
+                                    Image("GyozaBundleThree")
                                         .padding(.trailing, 16.0)
                                 } // HStack Bundle Photo
                             }) // Scroll View Bundle Photo (Horizontal)
@@ -120,8 +120,8 @@ struct DetailView: View {
     } // Body
 } // Struct
 
-struct DetailView_Previews: PreviewProvider {
+struct GyozaDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        GyozaDetailView()
     }
 }
