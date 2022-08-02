@@ -24,7 +24,9 @@ Berikut struktur file dan folder pada Foody:
     ├── Assets                  # Aset Logo, Icon, Gambar, dan Warna
     ├── GetStartedView.swift    # Berisikan Halaman Get Started (Frontend Only)
     ├── HomeView.swift          # Berisikan Halaman Home / Beranda (Frontend Only)
-    ├── DetailView.swift        # Berisikan Halaman Food Detail (Frontend Only)
+    ├── GyozaDetailView.swift   # Berisikan Halaman Gyoza Food Detail (Frontend Only)
+    ├── OrangeDetailView.swift  # Berisikan Halaman Orange Food Detail (Frontend Only)
+    ├── AvocadoDetailView.swift # Berisikan Halaman Avocado Food Detail (Frontend Only)
     └── OrderView.swift         # Berisikan Halaman Order (Frontend Only)
 
 <!-- List of Features -->
