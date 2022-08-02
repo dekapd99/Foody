@@ -4,7 +4,7 @@
 </p>
 
 # Foody
-Aplikasi Foody adalah Aplikasi iOS Pemesanan Makanan dengan SwiftUI, WidgetKit, Google Fonts, dan Assets dari Figma untuk Mempelajari Ilmu Frontend iOS.
+Aplikasi Foody adalah Aplikasi iOS Pemesanan Makanan dengan SwiftUI, WidgetKit, Google Fonts, dan Assets dari Figma untuk Mempelajari Ilmu Frontend iOS. Klik hyperlink ini untuk melihat [Prototype Figma](https://www.figma.com/file/CeATh4s9pEvlbINBcEF6kk/Foody-UI-Design?node-id=0%3A1).
 
 ### Preview
 <p align="center">

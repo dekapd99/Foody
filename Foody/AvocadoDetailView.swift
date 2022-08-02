@@ -45,7 +45,7 @@ struct AvocadoDetailView: View {
                             
                             // HStack Food Rating
                             HStack {
-                                Text("4.8")
+                                Text("4.6")
                                     .font(.custom("Poppins-Medium", size: 16))
                                     .foregroundColor(Color("Navy"))
                                 Image("IconStar")
